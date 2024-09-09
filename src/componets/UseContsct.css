@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ 
+}
+
+.body{
+    font-size: 0.5rem;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+   border: 2px solid black;
+   margin: 10px auto;
+   padding: 10px ;
+}
+.body img{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+.cancel{
+    position: absolute;
+    right: 20px;
+   
+}
